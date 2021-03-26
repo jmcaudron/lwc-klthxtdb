@@ -1,0 +1,21 @@
+<template>
+<lightning-card  variant="Narrow"  title="Get Addresse Facturation" icon-name="standard:account">
+	   <!-- Default/basic -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Account Name" placeholder="type here..." required></lightning-input>
+        </div>
+				
+   <!-- Default/basic -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Agence" placeholder="type here..." required></lightning-input>
+        </div>
+
+
+	   <!-- Default/basic -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="SIREN" placeholder="type here..." required></lightning-input>
+        </div>
+        <!-- Neutral variant (default) -->
+        <lightning-button variant="brand" label="Get Addresse Facturation" title="Lance le service sur Salomé" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+</lightning-card>
+</template>
